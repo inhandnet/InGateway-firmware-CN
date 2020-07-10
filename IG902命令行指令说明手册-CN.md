@@ -55,9 +55,11 @@
 
 **示例**：
 - 输入：`?`  
-获得当前所有可用命令的列表。  
+  
+  获得当前所有可用命令的列表。  
 - 输入：`show ?`  
-显示 show 命令的所有参数及其使用说明。  
+  
+  显示 show 命令的所有参数及其使用说明。  
 
 <a id="view-switching-commands"> </a>
 
@@ -78,7 +80,8 @@
 
 **示例**：
 - 在普通用户视图下输入： `enable 15 123456`
-切换到超级用户，密码为 123456。
+  
+  切换到超级用户，密码为 123456。
 
 <a id="disable"> </a>
 
@@ -93,14 +96,15 @@
 
 **示例**：
 - 在超级用户视图下输入： `disable`  
-返回普通用户视图。
+  
+  返回普通用户视图。
 
 <a id="exit"> </a>
 
 #### 2.3 exit
 **命令**： exit  
 
-**功能**：退出当前视图，返回前一视图（如果当前为普通用户视图则退出控制台。   
+**功能**：退出当前视图，返回前一视图（如果当前为普通用户视图则退出控制台）。   
 
 **视图**：所有视图  
 
@@ -108,8 +112,10 @@
 
 **示例**：
 - 在配置视图下输入： `exit`  
-返回到超级用户视图。  
+  
+  返回到超级用户视图。  
 - 在普通用户视图下输入： `exit`  
+  
   退出控制台。
 
 <a id="view-system-status-commands"> </a>
@@ -129,10 +135,15 @@
 
 **示例**：
 - 输入： show version
+  
   显示如下信息：  
+
   型号 : 显示IG902出厂型号  
+
   序列号 : 显示IG902出厂序列号  
+
   固件版本 : 显示IG902固件版本  
+
   Bootloader 版本 : 显示IG902的Bootloader版本  
 
 <a id="show-system"> </a>
@@ -148,8 +159,10 @@
 
 **示例**：
 - 输入： `show system`  
-显示如下示例信息：
-`09:26:45 up 5 days, 14:33,  1 users,  load average: 0.00, 0.01, 0.04`
+  
+  显示如下示例信息：
+  
+  `09:26:45 up 5 days, 14:33,  1 users,  load average: 0.00, 0.01, 0.04`
 
 <a id="show-clock"> </a>
 
@@ -164,7 +177,9 @@
 
 **示例**：
 - 输入： `show clock`  
+  
   显示如下示例信息：  
+  
   `Wed Apr 15 09:33:48 UTC 2020`
 
 <a id="show-log"> </a>
@@ -180,8 +195,10 @@
 
 **示例**：
 - 输入： `show log`  
+
   显示最新的 100 条日志记录。
 - 输入： `show log lines 10`  
+
   显示最新的 10 条日志记录。
 
 <a id="show-users"> </a>
@@ -197,6 +214,7 @@
 
 **示例**：
 - 输入： `show users`  
+
   显示如下示例信息：  
   <table>
   <tr>
@@ -228,7 +246,8 @@
 
 **示例**：
 - 输入： `show startup-config`  
-  显示系统的运行配置。
+
+  显示系统的启动配置。
 
 <a id="view-network-status-command"> </a>
 
@@ -247,6 +266,7 @@
 
 **示例**：
 - 输入： `show interface`  
+
   显示所有接口的状态信息。
 
 <a id="show-ip-route"> </a>
@@ -262,6 +282,7 @@
 
 **示例**：
 - 输入： `show ip route`  
+
   显示系统的路由表。
 
 <a id="show-arp"> </a>
@@ -277,6 +298,7 @@
 
 **示例**：
 - 输入： `show arp`  
+
   显示系统的ARP表。
 
 <a id="network-test-commands"> </a>
@@ -301,6 +323,7 @@ IG902提供了 ping、telnet 和 traceroute 等网络测试工具用于网络测
 
 **示例**：
 输入： ` ping www.baidu.com count 5 size 32`  
+
 执行对 www.baidu.com 的探测并显示探测结果。
 
 <a id="telnet"> </a>
@@ -319,7 +342,8 @@ IG902提供了 ping、telnet 和 traceroute 等网络测试工具用于网络测
 
 **示例**：
 - 输入： `telnet 192.168.1.1`  
-telnet 登录到 192.168.2.2。
+  
+  telnet 登录到 192.168.1.1。
 
 <a id="traceroute"> </a>
 
@@ -337,14 +361,13 @@ telnet 登录到 192.168.2.2。
 
 **示例**：
 - 输入： `traceroute www.baidu.com`  
-执行对 www.baidu.com 的路由探测并显示探测结果。
+  
+  执行对 www.baidu.com 的路由探测并显示探测结果。
 
 <a id="configuration-commands"> </a>
 
 ### 6. 配置命令
-在超级用户视图下，可用 `configure terminal` 命令切换到配置视图对IG902进行管理。一些设置
-命令同时支持 no 和 default 两种变形，其中 no 表示取消某项参数的设置，default 表示恢复
-某项参数为默认配置。
+在超级用户视图下，可用 `configure terminal` 命令切换到配置视图对IG902进行管理。一些设置命令同时支持 no 和 default 两种变形，其中 no 表示取消某项参数的设置，default 表示恢复某项参数为默认配置。
 
 <a id="configure-terminal"> </a>
 
@@ -359,7 +382,8 @@ telnet 登录到 192.168.2.2。
 
 **示例**：
 - 在超级用户视图下输入： `configure terminal`  
-切换到配置视图。
+  
+  切换到配置视图。
 
 <a id="hostname"> </a>
 
@@ -376,9 +400,11 @@ telnet 登录到 192.168.2.2。
 
 **示例**：
 - 在配置视图下输入： `hostname MyRouter`  
-设置IG902的主机名为 MyRouter。  
+  
+  设置IG902的主机名为 MyRouter。  
 - 在配置视图下输入： `default hostname`  
-恢复IG902的主机名为出厂设置。
+  
+  恢复IG902的主机名为出厂设置。
 
 <a id="clock-timezone"> </a>
 
@@ -397,9 +423,11 @@ telnet 登录到 192.168.2.2。
 
 **示例**：
 - 在配置视图下输入： `clock timezone UTC-8`  
-设置路由器的时区为UTC+08:00 中国大陆，香港，西澳大利亚，新加坡，台湾，俄罗斯。  
+  
+  设置路由器的时区为UTC+08:00 中国大陆，香港，西澳大利亚，新加坡，台湾，俄罗斯。  
 - 在配置视图下输入： `default clock timezone`  
-恢复路由器的时区为出厂设置。
+  
+  恢复路由器的时区为出厂设置。
 
 <a id="clock-set"> </a>
 
@@ -416,7 +444,8 @@ telnet 登录到 192.168.2.2。
 
 **示例**：
 - 在配置视图下输入： `clock set 2009.10.5-10:01:02`  
-设置路由器的时间为 2009 年 10 月 5 日上午 10 点 01 分 02 秒。
+  
+  设置路由器的时间为 2009 年 10 月 5 日上午 10 点 01 分 02 秒。
 
 <a id="sntp-client"> </a>
 
@@ -431,17 +460,20 @@ telnet 登录到 192.168.2.2。
 **视图**：配置视图  
 
 **参数**：
-- update-interval \<n>：更新时间间隔，合法值  
+- update-interval \<n>：更新时间间隔，合法值`60-2592000`  
 - \<interface> \<slot/port>：源接口，合法值`cellular1`等接口  
 - \<hostname>： 时间服务器的主机地址或域名 
 - [\<port>] \<n>：时间服务器端口号
  
 **示例**：
 - 在配置视图下输入： `sntp-client update-interval 7200`  
+  
   设置SNTP客户端的更新时间间隔为7200秒。
 - 在配置视图下输入： `sntp-client source interface cellular 1`  
+  
   设置SNTP客户端的源接口为cellular1。
 - 在配置视图下输入： `sntp-client server 0.pool.ntp.org port 123`  
+  
   设置SNTP客户端的服务器地址为 0.pool.ntp.org ，端口号123。
 
 <a id="system-management-commands"> </a>
@@ -461,6 +493,7 @@ telnet 登录到 192.168.2.2。
 
 **示例**：
 - 在超级用户视图下输入： `reboot`  
+
   系统重新启动。
 
 <a id="enable-password"> </a>
@@ -476,6 +509,7 @@ telnet 登录到 192.168.2.2。
 
 **示例**：
 - 在配置视图下输入： `enable password`  
+
   更改超级用户的密码。
 
 <a id="username"> </a>
@@ -495,6 +529,8 @@ telnet 登录到 192.168.2.2。
 
 **示例**：
 - 在配置视图下输入： `username abc password 1234567`  
-增加一个普通用户，用户名为 abc，密码为 1234567；或修改普通用户abc的密码为1234567  
+  
+  增加一个普通用户，用户名为 abc，密码为 1234567；或修改普通用户abc的密码为1234567  
 - 在配置视图下输入： `no username abc`  
-删除用户名为 abc 的普通用户。
+  
+  删除用户名为 abc 的普通用户。
