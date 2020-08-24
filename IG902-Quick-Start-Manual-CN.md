@@ -186,7 +186,7 @@
 <a id="enable-the-debug-mode"> </a>  
 
 ### 3.4 开启调试模式
-如需在IG902上运行并调试Python代码，需要启用IG902的调试模式。在“边缘计算>>Python边缘计算”页面中，勾选“启用调试模式”，启用后可通过VS Code对IG902进行开发。如何使用VS Code对IG902进行Python开发请参考[MobiusPi Python开发快速入门](http://sdk.ig.inhand.com.cn/zh_CN/latest/MobiusPi%20Python%20QuickStart-CN.html)。  
+如需在IG902上运行并调试Python代码，需要启用IG902的调试模式。在“边缘计算>>Python边缘计算”页面中，勾选“启用调试模式”，启用后可通过VS Code对IG902进行开发。如何使用VS Code对IG902进行Python开发请参考[MobiusPi Python开发快速入门](http://sdk.ig.inhand.com.cn/zh_CN/latest/MobiusPi-Python-QuickStart-CN.html)。  
 
 ![](images/2020-02-10-11-00-28.png)  
 

@@ -651,7 +651,7 @@ Python环境配置步骤如下：
 1. 选择“边缘计算 > Python边缘计算”，进入“Python边缘计算”界面；  
 2. 启用Python边缘计算引擎；  
 3. 安装/升级Python SDK；<font color=#FF0000>（非必须步骤）</font>
-4. 启用调试模式即可。如何进行Python二次开发请参考[Python开发快速入门](http://sdk.ig.inhand.com.cn/zh_CN/latest/MobiusPi%20Python%20QuickStart-CN.html)。
+4. 启用调试模式即可。如何进行Python二次开发请参考[Python开发快速入门](http://sdk.ig.inhand.com.cn/zh_CN/latest/MobiusPi-Python-QuickStart-CN.html)。
 
 App配置步骤如下：
 1. 选择“边缘计算 > Python边缘计算”，进入“Python边缘计算”界面；  
