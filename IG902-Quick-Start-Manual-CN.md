@@ -306,7 +306,7 @@ IG902支持数字量输入、脉冲计数、数字量输出和脉冲输出功能
 
   开启“启用”后启用Modbus TCP从站功能，该功能支持Modbus TCP Master读取IG902的IO状态；开启“外部访问”后允许网关外部的Modbus TCP Master读取IG902的IO状态（如SCADA软件）。其余项根据实际情况配置，示例配置如下：  
 
-  ![](images/2021-04-06-11-34-20.png)
+  ![](images/2021-04-19-11-45-29.png)
   
 - 步骤4：通过Modbus TCP读取IO状态  
 
