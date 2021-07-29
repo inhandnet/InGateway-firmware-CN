@@ -91,7 +91,7 @@
 <a id="update-the-software"> </a>  
 
 ## 2. 更新软件版本
-如需获取IG902产品最新软件版本及其功能特性信息，请联系客服。如需更新IG902的软件版本，请参考如下方法。
+如需获取IG902产品最新软件版本及其功能特性信息，请访问[资源中心](https://www.inhand.com.cn/downlist/edge-computing-gateway/)。如需更新IG902的软件版本，请参考如下方法。
 
 <a id="update-the-firmware-software"> </a>  
 
