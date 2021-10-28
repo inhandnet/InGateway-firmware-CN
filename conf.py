@@ -173,10 +173,3 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
-
-version: 2
-
-python:
-   install:
-   - requirements: requirements.txt
-
