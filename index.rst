@@ -44,6 +44,12 @@ InGateway902边缘计算网关是映翰通面向IoT领域，助力IoT行业实�
 
 .. toctree::
    :maxdepth: 2
+   :caption: IG974用户手册
+
+   IG974-Quick-Start-Manual-CN.md
+
+.. toctree::
+   :maxdepth: 2
    :caption: IG902用户手册
 
    IG902-Quick-Start-Manual-CN.md
@@ -52,9 +58,9 @@ InGateway902边缘计算网关是映翰通面向IoT领域，助力IoT行业实�
 
 .. toctree::
    :maxdepth: 2
-   :caption: IG974用户手册
+   :caption: IG532用户手册
 
-   IG974-Quick-Start-Manual-CN.md
+   IG532-Quick-Start-Manual-CN.md
 
 .. toctree::
    :maxdepth: 2
